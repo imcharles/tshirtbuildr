@@ -1,0 +1,234 @@
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+a:hover{
+	cursor:pointer;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+h2,h3,h4,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar{
+	height:80px;
+	
+}
+.navbar-brand:hover, .navbar-brand:focus, .navbar-inverse .navbar-brand:focus{
+	text-decoration:none;
+}
+.navbar-inverse .navbar-brand{
+	font-size: 45px;
+	font-weight:lighter;
+	max-width: 300px;
+	color:#428BCA;
+	padding:0px;
+	margin-top:25px;
+}
+.navbar form input{
+	max-width: 200px;
+	line-height: 45px;
+	margin:5px;
+	border-radius: 5px;
+	font-size:20px;
+	font-weight: normal;
+	padding-left:5px;
+}
+#register .modal-body{
+  margin-left: 50px;
+  width: 600px;
+  font-size:20px;
+  font-weight: lighter;
+}
+#register input{
+	border-radius: 5px;
+	padding:2px;
+	margin-bottom:10px;
+	margin-right:20px;
+	background-color: rgba(66, 130, 180,.2);
+	float:right;
+}
+.btn {
+	max-height: 50px;
+	box-shadow: 5px 5px 20px rgba(50,50,50,.4);
+}
+.plaid{
+	background-image:url(../img/fabric_plaid.png);
+	box-shadow: 5px 5px 30px rgba(50,50,50,.4);
+}
+.col-lg-4 img{
+	vertical-align: middle;
+	margin-bottom:10px;
+}
+.navbar .collapse a{
+	margin-top:30px;
+	margin-left:10px;
+}
+.main_banner{
+	width:auto;
+	height:500px;
+	background-image: -webkit-linear-gradient(rgba(66, 150, 180, 0.5), rgba(66, 150, 180, 0.5)), url(../img/ps_neutral.png);
+	margin-top:60px;
+}
+.main_banner img{
+	height:500px;
+	margin-left:20px;
+	float:left;
+}
+/*.static{
+	position: absolute;
+}
+.slide{
+	position: relative;
+}*/
+.middle_banner{
+	width:auto;
+	height:450px;
+	background-image: -webkit-linear-gradient(rgba(190, 195, 160, 0.5), rgba(190, 195, 160, 0.5)), url(../img/ps_neutral.png);
+}
+.middle_banner .row{
+	margin-left:50px;
+}
+.bottom_banner{
+	width:auto;
+	height:650px;
+	background-image: -webkit-linear-gradient(rgba(100, 220, 225, 0.5), rgba(100, 220, 225, 0.5)), url(../img/ps_neutral.png);
+}
+.bottom_banner .row{
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.bottom_banner h1{
+	margin-top:50px;
+}
+.jumbotron{
+	float:left;
+	width:750px;
+	margin-top: 90px;
+	margin-left: 70px;
+	border-radius:10px;
+	
+}
+.jumbotron h1{
+	font-size: 50px;
+	line-height: 60px;
+	text-shadow: 0px -2px 0px rgba(255,255,255,.9);
+	font-weight: bold;
+}
+.jumbotron a{
+	margin-right:30px;
+	margin-top:10px;
+}
+.col-lg-4{
+	width:300px;
+	height: 275px;
+	margin:30px;
+	margin-top:70px;
+	margin-bottom:120px;
+	border-radius: 10px;
+}
+.col-lg-4 p{
+	font-size:18px;
+}
+.col-lg-4 a{
+	float:right;
+	margin-right:15px;
+}
+.thumbnail{
+	margin-top: 40px;
+	background:none;
+	box-shadow:none;
+	border:0 none;
+	max-height: 20%;
+}
+.thumbnail:hover{
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+  cursor:pointer;
+}
+#hat_margin{
+	margin-top:60px;
+}
+/*Modal CSS*/
+.modal-dialog{
+	width:800px;
+	padding:30px;
+}
+/*.modal-body{
+	min-height:300px;
+}*/
+.modal-footer{
+	box-shadow: -3px -3px 10px rgba(0,0,0,.3);
+}
+.product-preview .product {
+	position:relative;
+}
+.product img{
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px rgba(50,50,50,.4);
+	width:330px;
+}
+.swatch{
+	margin-top:15px;
+	margin-left: 50px;
+	padding:5px;
+	width:220px;
+	height:40px;
+	opacity: .9;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px rgba(50,50,50,.4);
+}
+/*/*drag n drop*/
+#upload_box{
+	width:330px;
+	height:400px;
+	padding:20px;
+	border-radius:10px;
+}
+#upload_box select{
+	width:200px;
+	margin-top:60px;
+}
+footer{
+	line-height:40px;
+	font-size:18px;
+}	
+
+.screen{
+	background-image: url(../images/screen.png);
+	 -webkit-background-size: cover; 
+  	height:500px;
+
+}
+.screen1{
+	background-image: url(../images/screen1.png);
+	 -webkit-background-size: cover; 
+  	height:500px;
+
+}
+.screen2{
+	background-image: url(../images/screen2.png);
+	 -webkit-background-size: cover;  
+  	height:500px;
+
+}
+.bottom_banner section{
+	margin-top: 70px;
+}
+#myCarousel .col-lg-4{
+	margin-left: 100px;
+}

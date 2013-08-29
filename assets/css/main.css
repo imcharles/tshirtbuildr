@@ -1,0 +1,76 @@
+	body {
+	background: url(../preview/bg.png) repeat;
+}
+.navbar form{
+	margin-top: 20px;
+}
+.api-buttons {
+	margin-top: 20px;
+}
+
+.api-buttons > a {
+	margin-right: 10px;
+}
+.api-buttons span{
+	margin-right:20px;
+}
+.checkbox{
+	width:100px;
+}
+.price {
+	font-size: 25px !important;
+	line-height: 26px !important;
+}
+.fpd-product-container {
+	height: 500px !important;
+}
+/*.fpd-product-container div{
+	height: 450px !important;
+}*/
+/*.fpd-single-product{
+	height: 500px !important;
+}*/
+.fpd-products{
+	background: url(../preview/bg.png) repeat;
+}
+.fpd-views-selection, .fpd-single-product{
+	background: url(../preview/bg.png) repeat !important;
+}
+.fpd-views-selection li{
+	background-color: white !important;
+}
+.fpd-product-selection{
+	height: 500px !important;
+}
+.fpd-toolbar{
+	height:30px !important;
+}
+/*.fpd-container .fpd-product-selection{
+	height: 460px !important;
+}*/
+#shirtbuilder_modal .modal-body {
+	padding-top: 0px !important;
+}
+
+
+.bottom_banner{
+	height:560px;
+}
+.brown{
+	background-image: -webkit-linear-gradient(rgba(190, 195, 160, 0.5), rgba(190, 195, 160, 0.5)), url(../img/ps_neutral.png);
+}
+.bottom_banner section{
+	/*margin-top: 40px;*/
+}
+.bottom_banner ol{
+	background-color: rgba(50,50,50,0.3);
+	box-shadow: 5px 5px 30px rgba(50,50,50,.8);
+	border-radius: 5px;
+	width:100px;
+}
+.bump-top{
+	margin-top: 80px;
+}
+.size{
+	height: 350px;
+}
